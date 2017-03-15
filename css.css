@@ -1,0 +1,23 @@
+.visually-impaired {
+	position: absolute;
+	right: 21px;
+	bottom: 100px;
+}
+.visually-impaired__link {
+	text-decoration: none;
+	font-size: 19px !important;
+	line-height: 21px !important;
+	color: #EAEAEA;
+	text-shadow: 1px 1px 1px grey;
+}
+.visually-impaired__link:hover {
+	color: #fff;
+	text-shadow: 1px 1px 1px black;
+}
+.visually-impaired__link::before {
+	content: "";
+	display: inline-block;
+	background: url("img/icons_eye.png") no-repeat -4px -4px;
+	width: 30px;
+	height: 15px;
+}
